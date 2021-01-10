@@ -1,0 +1,148 @@
+Copyright © 2021 - AudiSoft Consulting (https://www.audisoft.com/).
+
+La redistribución y el uso en formato fuente o binario, con o sin  modificación,
+cuando esté permitido de acuerdo con el contrato  de  licencia  a  continuación,
+debe  cumplir las siguientes condiciones:
+
+1. Las redistribuciones del código fuente deben conservar el aviso  de  derechos
+de autor anterior, esta lista de condiciones y el siguiente contrato de licencia
+y exención de responsabilidad.
+
+2. Las redistribuciones en formato binario deben reproducir el aviso de derechos
+de autor anterior, esta lista de condiciones y el siguiente contrato de licencia
+y  exención  de  responsabilidad  en  la  documentación  y/u  otros   materiales
+proporcionados con la distribución.
+
+3. Ni el nombre del titular de los derechos de  autor  ni  los  nombres  de  sus
+colaboradores pueden utilizarse para respaldar o promocionar productos derivados
+de este software sin un permiso previo específico por escrito.
+
+-------------------------------------------------------------------------------
+Contrato de licencia de desarrollador único de componentes de software AudiSoft
+-------------------------------------------------------------------------------
+
+¡Gracias por elegir componentes de software AudiSoft!
+
+Contrato  de  licencia  de  componentes  de  software  AudiSoft  entre  AudiSoft
+Consulting SAS (AudiSoft)  y  el  titular  de  la  licencia  del  componente  de
+software.
+
+Este contrato describe sus derechos y las condiciones en las que puede  utilizar
+el componente de software AudiSoft. Debe revisar el contrato completo, incluidos
+los términos de licencia complementarios que acompañan al software  y  cualquier
+términos vinculados, porque todos los términos son importantes  y  juntos  crean
+este contrato que se aplica a  usted.  Puede  revisar  los  términos  vinculados
+pegando el vínculo en una ventana del navegador web.
+
+Al aceptar este contrato o al utilizar el componente de software,  acepta  todos
+estos términos, y consiente la transmisión  de  cierta  información  durante  la
+activación y durante el uso del software  según  la  declaración  de  privacidad
+descrita más abajo. Si no acepta o no cumple estos términos, no  puede  utilizar
+el componente de software o sus funciones.
+
+Este contrato  se  aplica  al  componente  de  software  AudiSoft  que  adquirió
+directamente o desde un distribuidor, el medio en el que recibió el software (de
+existir), cualquier tipo de letra, ícono, imagen o archivo  de  sonido  incluido
+con el software, y también las actualizaciones, mejoras, suplementos o servicios
+de AudiSoft para el software, a menos que otros términos vengan con ellos.
+
+El componente de software puede incluir programas de terceros con licencia  bajo
+este contrato, o bajo sus propios términos.
+
+El software es licenciado, no vendido.  Bajo  este  contrato,  le  otorgamos  el
+derecho a:
+
+- instalar y ejecutar una instancia del componente de software en su dispositivo
+  (el dispositivo con licencia), para que lo use una persona a la  vez,  siempre
+  que cumpla con todos los términos de este contrato. La actualización desde  un
+  software no original no hace que su versión de software sea genuina, y en  esa
+  situación, no tiene una licencia para usar el software.
+- utilizar el componente software para el desarrollo de aplicaciones o cualquier
+  tipo de módulo software en general por una sola persona dentro de  la  empresa
+  titular de la licencia.
+- Vender cualquier aplicación comercial compilada con el componente de  software
+  AudiSoft, publicado por la empresa titular de la licencia.
+- realizar modificaciones en el código fuente del componente  de  software  para
+  uso propio.
+- utilizar el componente de software y el código fuente en todos los sistemas de
+  desarrollo utilizados por el desarrollador asignado por la empresa titular  de
+  la licencia.
+- solicitar versiones futuras del componente de software  en  cualquier  momento
+  dentro del ciclo de versión completo, ya sea a través de la web o  por  correo
+  electrónico. Después de la expiración  del  registro,  AudiSoft  ya  no  puede
+  proporcionar ninguna versión antigua de software, documentación o ejemplos.
+- hacer una única copia del software para realizar copias de seguridad. AudiSoft
+  no es un servicio de copias de seguridad y espera que las copias de  seguridad
+  las realice el usuario con licencia.
+- acceder  a  soporte  prioritario  por  correo  electrónico   por   parte   del
+  desarrollador único asignado por la empresa titular de la licencia durante  el
+  período de registro.
+- vender cualquier cantidad de aplicaciones en cualquier  cantidad  sin  que  se
+  requieran tarifas de tiempo de ejecución adicionales.
+
+El contrato de licencia le impide:
+
+- distribuir partes o el código  fuente  completo  de  cualquier  componente  de
+  software de AudiSoft.
+- utilizar partes o  código  fuente  completo  de  componentes  de  software  de
+  AudiSoft para crear cualquier tipo de otros componentes  de  software  que  se
+  distribuyan o vendan con o sin código fuente.
+- cambiar el código fuente de cualquier componente de  software  de  AudiSoft  y
+  venderlo o distribuirlo como un producto modificado.
+- crear un producto compilado derivado como dll, jar, exe, OCX o control ActiveX
+  y venderlo o distribuirlo como un producto.
+- utilizar el componente de software en aplicaciones vendidas con un  nombre  de
+  editor diferente al de la empresa titular de la licencia.
+- transferir la licencia a otro desarrollador.
+- transferir la licencia a otra empresa.
+- utilizar el componente de software por parte de varios desarrolladores  de  la
+  empresa que posee la licencia.
+- publicar, copiar (que no sea  la  copia  de  seguridad  permitida),  alquilar,
+  arrendar o prestar el software.
+- utilizar el software como software de servidor,  para  alojamiento  comercial,
+  hacer que el software esté disponible para uso simultáneo por varios  usuarios
+  en una red, instalar el software en un servidor y permitir  que  los  usuarios
+  accedan a él de forma remota, o instalar el software en un dispositivo para su
+  uso exclusivo por usuarios remotos.
+
+Está autorizado a utilizar este software solo si tiene la licencia adecuada y el
+componente de software se ha activado correctamente con una  clave  de  producto
+original o mediante  otro  método  autorizado.  Cuando  se  conecta  a  Internet
+mientras usa el software, el software se comunicará automáticamente con AudiSoft
+o su afiliado para  realizar  la  activación  y  asociarlo  con  un  dispositivo
+determinado. Entonces se producirá la transmisión de  cierta  información  y  es
+posible que se apliquen cargos  por  servicios  de  Internet,  teléfono  y  SMS.
+Durante la activación (o la reactivación que puede desencadenarse por cambios en
+los componentes  de  su  dispositivo),  el  software  puede  determinar  que  la
+instancia instalada del software  es  falsificada,  con  licencia  incorrecta  o
+incluye cambios no autorizados. También puede recibir recordatorios para obtener
+na licencia adecuada para el software. La activación exitosa no confirma que  el
+software sea genuino o con la licencia adecuada. No puede omitir  ni  eludir  la
+activación.
+
+El contrato de licencia  termina  inmediatamente  después  de  la  violación  de
+cualquiera de los términos y condiciones descritos.
+
+Su privacidad es importante para nosotros.  Algunas  de  las  funciones  de  los
+componentes de software envían o reciben información  cuando  se  utilizan  esas
+funciones. Muchas de estas funciones se pueden  desactivar  en  la  interfaz  de
+usuario o puede optar por no utilizarlas. Al aceptar  este  acuerdo  y  usar  el
+software, acepta que AudiSoft puede recopilar, usar y divulgar la información.
+
+------------------------------
+Exención de de responsabilidad
+------------------------------
+
+ESTE SOFTWARE SE LE PROPORCIONA "TAL CUAL" SIN GARANTÍA DE NINGÚN TIPO,  YA  SEA
+EXPRESA O IMPLÍCITA INCLUYENDO, PERO NO LIMITADO A, LAS GARANTÍAS  APLICADAS  DE
+COMERCIABILIDAD Y / O APTITUD PARA UN PROPÓSITO PARTICULAR. USTED ASUME TODO  EL
+RIESGO EN CUANTO A LA PRECISIÓN Y EL USO DEL SOFTWARE Y  CUALQUIER  OTRO  RIESGO
+QUE SURJA DEL USO O RENDIMIENTO DE ESTE SOFTWARE Y  DOCUMENTACIÓN.  AUDISOFT  NO
+SERÁ RESPONSABLE DE NINGÚN DAÑO QUE SURJA DEL USO O LA INCAPACIDAD DE USAR  ESTE
+SOFTWARE, INCLUSO SI AUDISOFT HA SIDO ADVERTIDO DE LA POSIBILIDAD DE DICHO DAÑO.
+EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY APLICABLE, EN NINGÚN CASO AUDISOFT SERÁ
+RESPONSABLE  DE  NINGÚN  DAÑO  CONSECUENTE,  INCIDENTAL,   DIRECTO,   INDIRECTO,
+ESPECIAL, PUNITIVO O DE OTRO TIPO, INCLUYENDO PERO NO LIMITADO A DAÑOS O PÉRDIDA
+DE BENEFICIOS COMERCIALES, PÉRDIDA DE INFORMACIÓN EMPRESARIAL U  OTRAS  PÉRDIDAS
+PECUNIARIAS, INCLUSO SI AUDISOFT HA SIDO ADVERTIDO DE LA POSIBILIDAD  DE  DICHOS
+DAÑOS.
