@@ -25,5 +25,5 @@ jobs:
       # Build container image.
       - name: 2 - Build image
         run: docker pull cirrusci/flutter:latest
-      - run: docker build . --tag ghcr.io/github/flutter:$GITHUB_SHA --cache-from ghcr.io/github/flutter:latest
-      - run: docker push ghcr.io/github/flutter:$GITHUB_SHA
+      - run: docker build . --tag ghcr.io/AudiSoft/flutter:$GITHUB_SHA --cache-from ghcr.io/AudiSoft/flutter:latest
+      - run: docker push ghcr.io/AudiSoft/flutter:$GITHUB_SHA
