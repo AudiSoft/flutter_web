@@ -1,7 +1,7 @@
 # Copyright © 2021 - AudiSoft Consulting (https://www.audisoft.com/).
 
-# Creates an Ubuntu-based Docker image with web-enabled Flutter already installed.
-name: Create Flutter Web Docker Image
+# Creates an Ubuntu-based Docker image with web-enabled Flutter.
+name: Create flutter_web Docker image
 
 # Run this workflow manually from GitHub.
 on: workflow_dispatch

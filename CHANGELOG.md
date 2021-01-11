@@ -1,4 +1,4 @@
-# flutter_web_docker
+# flutter_web
 
 [![Copyright © AudiSoft Consulting][audisoft_badge]][audisoft_url]
 
@@ -7,7 +7,7 @@
 
 ## 0.3.0
 
-- Use Dockerfile.
+- Change trigger event to workflow_dispatch.
 
 ## 0.2.0
 
