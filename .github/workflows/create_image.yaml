@@ -11,6 +11,10 @@ jobs:
     name: Create image
     runs-on: ubuntu-latest
     steps:
+      # Checkout the code base.
+      - name: 1 - Checkout
+        uses: actions/checkout@v2
+      # Test secret
       - name: 0 - Test secret
         run: echo $GITHUB_ACTOR
       - run: echo ${{ secrets.CONTAINER_REGISTRY_TOKEN }}
