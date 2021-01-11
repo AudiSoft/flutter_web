@@ -3,21 +3,21 @@
 # Creates an Ubuntu-based Docker image with web-enabled Flutter already installed.
 name: Create Flutter Web Docker Image
 
-# Run this workflow every time a new commit is pushed.
-on: push
+# Run this workflow manually from GitHub.
+on: workflow_dispatch
 
 jobs:
   create_image:
     name: Create image
     runs-on: ubuntu-latest
     steps:
-      - name: 0 - Test secret
-        run: echo ${{ secrets.CONTAINER_REGISTRY_TOKEN }}
-        run: echo $GITHUB_ACTOR
-      # Login with new container registry url and PAT
-      - name: 1 - Login
+      - name: Checkout Dockefile
+        uses: actions/checkout@v2
+      - name: Login to GitHub Container Regitry with Personal Access Token (PAT)
         run: echo ${{ secrets.CONTAINER_REGISTRY_TOKEN }} | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
-# new container registry urls added
-#docker pull ghcr.io/github/octoshift:latest
-#docker build . --tag ghcr.io/github/octoshift:$GITHUB_SHA --cache-from ghcr.io/github/octoshift:latest
-#docker push ghcr.io/github/octoshift:$GITHUB_SHA
+      - name: Download base image from hub.docker.com
+        run: docker pull cirrusci/flutter:latest
+      - name: Build new image
+        run: docker build . --tag ghcr.io/audisoft/flutter_web:0.3.0 --cache-from ghcr.io/audisoft/flutter_web:latest
+      - name: Publish new image to ghcr.io
+        run: docker push ghcr.io/audisoft/flutter_web:0.3.0
