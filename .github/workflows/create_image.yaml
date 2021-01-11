@@ -11,19 +11,13 @@ jobs:
     name: Create image
     runs-on: ubuntu-latest
     steps:
-      # Checkout the code base.
-      - name: 1 - Checkout
+      - name: Checkout Dockefile
         uses: actions/checkout@v2
-      # Test secret
-      - name: 0 - Test secret
-        run: echo $GITHUB_ACTOR
-      - run: echo ${{ secrets.CONTAINER_REGISTRY_TOKEN }}
-      - run: echo $GITHUB_ACTOR
-      # Login with new container registry url and PAT.
-      - name: 1 - Login
+      - name: Login to GitHub Container Regitry with Personal Access Token (PAT)
         run: echo ${{ secrets.CONTAINER_REGISTRY_TOKEN }} | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
-      # Build container image.
-      - name: 2 - Build image
+      - name: Download base image from hub.docker.com
         run: docker pull cirrusci/flutter:latest
-      - run: docker build . --tag ghcr.io/audisoft/flutter:$GITHUB_SHA --cache-from ghcr.io/audisoft/flutter:latest
-      - run: docker push ghcr.io/audisoft/flutter:$GITHUB_SHA
+      - name: Build new image
+        run: docker build . --tag ghcr.io/audisoft/flutter:$GITHUB_SHA --cache-from ghcr.io/audisoft/flutter:latest
+      - name: Publish new image to ghcr.io
+        run: docker push ghcr.io/audisoft/flutter:$GITHUB_SHA
