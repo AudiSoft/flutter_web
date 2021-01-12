@@ -17,16 +17,32 @@ The source project can be found at [https://github.com/AudiSoft/flutter_web][rep
 
 ## Usage
 
-To run a GitHub action using the image:
+To install from the command line:
+
+```bash
+#!/bin/bash
+docker pull ghcr.io/audisoft/flutter_web:latest
+```
+
+To use the image in a GitHub Action:
 
 ```yaml
 jobs:
   job_name:
     name: Job name
-    runs-on: audisoft/flutter_web-latest
+    runs-on: ubuntu-latest
+    container:
+      image:  ghcr.io/audisoft/flutter_web:latest
+    steps:
+      # Checkout the code base.
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Print Flutter (and Dart) version.
+      - name: Print Flutter version
+        run: flutter --version
 ```
 
-To extend the image in a GitHub Action Script:
+To extend the image in a GitHub Action:
 
 ```yaml
 jobs:

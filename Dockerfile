@@ -28,8 +28,5 @@ RUN flutter upgrade
 # Run Flutter doctor.
 RUN flutter doctor -v
 
-# Get Flutter version.
+# Print Flutter (and Dart) version.
 RUN flutter --version
-
-# Get Dart version.
-RUN dart --version
