@@ -2,7 +2,7 @@
 
 FROM cirrusci/flutter
 
-LABEL org.opencontainers.image.version="0.5.0" \
+LABEL org.opencontainers.image.version="0.6.0" \
       org.opencontainers.image.created="2021-01-11T19:15:00-05:00" \
       org.opencontainers.image.title="flutter_web" \
       org.opencontainers.image.description="Ubuntu-based Docker image with web-enabled Flutter" \
@@ -28,8 +28,5 @@ RUN flutter upgrade
 # Run Flutter doctor.
 RUN flutter doctor -v
 
-# Get Flutter version.
+# Print Flutter (and Dart) version.
 RUN flutter --version
-
-# Get Dart version.
-RUN dart --version
