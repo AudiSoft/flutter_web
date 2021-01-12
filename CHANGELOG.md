@@ -5,6 +5,10 @@
 [audisoft_badge]: https://img.shields.io/badge/Copyright%20%C2%A9%202020%20-AudiSoft-orange (Copyright © AudiSoft Consulting)
 [audisoft_url]: https://www.audisoft.com/
 
+## 0.4.0
+
+- Correct Dockerfile labels and README.md hyperlinks.
+
 ## 0.3.0
 
 - Change trigger event to workflow_dispatch.

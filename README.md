@@ -7,13 +7,26 @@
 
 Ubuntu-based Docker image with web-enabled Flutter.
 
-## Usage
-
-This package can be located at [https://ghcr.io/audisoft/flutter_web][package_url].
+The binary package can be found at [https://ghcr.io/audisoft/flutter_web][package_url].
 
 [package_url]: https://ghcr.io/audisoft/flutter_web
 
-In a GitHub Action Script:
+The source project can be found at [https://github.com/AudiSoft/flutter_web][repository_url].
+
+[repository_url]: https://github.com/AudiSoft/flutter_web
+
+## Usage
+
+To run a GitHub action using the image:
+
+```yaml
+jobs:
+  job_name:
+    name: Job name
+    runs-on: audisoft/flutter_web-latest
+```
+
+To extend the image in a GitHub Action Script:
 
 ```yaml
 jobs:
@@ -24,10 +37,8 @@ jobs:
       # Checkout context directory including Dockefile.
       - name: Prepare context
         uses: actions/checkout@v2
-      # Get image (requires registering a Personal Access Token PAT as a secret in the repository).
-      - name: Login to GitHub Container Regitry
-        run: echo ${{ secrets.CONTAINER_REGISTRY_TOKEN }} | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
-      - name: Download latest image
+      # Download latest image.
+      - name: Download image
         run: docker pull ghcr.io/audisoft/flutter_web:latest
       # Use image.
       - name: Build new image

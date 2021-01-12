@@ -2,7 +2,8 @@
 
 FROM cirrusci/flutter
 
-LABEL org.opencontainers.image.version="0.3.0" \
+LABEL org.opencontainers.image.version="0.4.0" \
+      org.opencontainers.image.created="2021-01-11T19:15:00-05:00" \
       org.opencontainers.image.title="flutter_web" \
       org.opencontainers.image.description="Ubuntu-based Docker image with web-enabled Flutter" \
       org.opencontainers.image.authors="AudiSoft Consulting (https://www.audisoft.com/)" \
@@ -10,9 +11,7 @@ LABEL org.opencontainers.image.version="0.3.0" \
       org.opencontainers.image.documentation="https://github.com/AudiSoft/flutter_web/blob/master/README.md" \
       org.opencontainers.image.licenses="https://github.com/AudiSoft/flutter_web/blob/master/LICENSE" \
       org.opencontainers.image.url="https://ghcr.io/audisoft/flutter_web" \
-      org.opencontainers.image.source="https://github.com/AudiSoft/flutter_web" \
-      org.opencontainers.image.revision=$VCS_REF \
-      org.opencontainers.image.created=$BUILD_DATE
+      org.opencontainers.image.source="https://github.com/AudiSoft/flutter_web"
 
 # Run as ROOT
 USER root
