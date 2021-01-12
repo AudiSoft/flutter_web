@@ -2,7 +2,7 @@
 
 FROM cirrusci/flutter
 
-LABEL org.opencontainers.image.version="0.9.0" \
+LABEL org.opencontainers.image.version="0.10.0" \
       org.opencontainers.image.created="2021-01-11T19:15:00-05:00" \
       org.opencontainers.image.title="flutter_web" \
       org.opencontainers.image.description="Ubuntu-based Docker image with web-enabled Flutter" \
