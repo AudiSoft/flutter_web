@@ -5,6 +5,10 @@
 [audisoft_badge]: https://img.shields.io/badge/Copyright%20%C2%A9%202020%20-AudiSoft-orange (Copyright © AudiSoft Consulting)
 [audisoft_url]: https://www.audisoft.com/
 
+## 0.8.0
+
+- Add new tag.
+
 ## 0.7.0
 
 - Testing "latest" tag.

@@ -2,7 +2,7 @@
 
 FROM cirrusci/flutter
 
-LABEL org.opencontainers.image.version="0.7.0" \
+LABEL org.opencontainers.image.version="0.8.0" \
       org.opencontainers.image.created="2021-01-11T19:15:00-05:00" \
       org.opencontainers.image.title="flutter_web" \
       org.opencontainers.image.description="Ubuntu-based Docker image with web-enabled Flutter" \
@@ -17,16 +17,16 @@ LABEL org.opencontainers.image.version="0.7.0" \
 USER root
 
 # Disable Google Analytics.
-RUN flutter config --no-analytics
+#RUN flutter config --no-analytics
 
 # Switch to beta channel.
-RUN flutter channel beta
+#RUN flutter channel beta
 
 # Upgrade Flutter.
-RUN flutter upgrade
+#RUN flutter upgrade
 
 # Run Flutter doctor.
-RUN flutter doctor -v
+#RUN flutter doctor -v
 
 # Get Flutter version.
 RUN flutter --version
