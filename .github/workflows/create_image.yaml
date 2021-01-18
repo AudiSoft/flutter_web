@@ -11,7 +11,7 @@ jobs:
     name: Create image
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Dockefile
+      - name: Checkout Dockerfile
         uses: actions/checkout@v2
       - name: Login to GitHub Container Regitry with Personal Access Token (PAT)
         run: echo ${{ secrets.CONTAINER_REGISTRY_TOKEN }} | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
@@ -20,6 +20,6 @@ jobs:
       - name: Build new image
         run: docker build . --tag ghcr.io/audisoft/flutter_web --cache-from ghcr.io/audisoft/flutter_web
       - name: Tag with new version number
-        run: docker tag ghcr.io/audisoft/flutter_web ghcr.io/audisoft/flutter_web:0.6.0
+        run: docker tag ghcr.io/audisoft/flutter_web ghcr.io/audisoft/flutter_web:0.7.0
       - name: Publish new image to ghcr.io
         run: docker push ghcr.io/audisoft/flutter_web

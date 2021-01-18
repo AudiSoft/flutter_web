@@ -2,8 +2,8 @@
 
 FROM cirrusci/flutter
 
-LABEL org.opencontainers.image.version="0.6.0" \
-      org.opencontainers.image.created="2021-01-11T19:15:00-05:00" \
+LABEL org.opencontainers.image.version="0.7.0" \
+      org.opencontainers.image.created="2021-01-18T01:45:00-05:00" \
       org.opencontainers.image.title="flutter_web" \
       org.opencontainers.image.description="Ubuntu-based Docker image with web-enabled Flutter" \
       org.opencontainers.image.authors="AudiSoft Consulting (https://www.audisoft.com/)" \
